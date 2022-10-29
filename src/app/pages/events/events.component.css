@@ -1,0 +1,30 @@
+body{
+background-image: url(https://assets.d2l.com/wp-content/uploads/2016/07/background-the-best-place_02.jpg);    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+.events{
+    margin-top: 0%;
+    display: flex;
+    margin-left: 80px;
+}
+.image{
+    margin-left: 80px;
+   
+}
+.image a{
+    text-decoration: none;
+}
+a{
+    position: relative;left: 80px;
+    color: springgreen;
+    background-color: grey;
+    transition:  2s;
+}
+a:hover{
+    background-color: pink;
+    color: black;
+    transform:scale(1.5) ;
+}
